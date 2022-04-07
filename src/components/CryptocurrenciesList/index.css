@@ -1,0 +1,106 @@
+/* Write your CSS code here */
+.cryptocurrencies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  color: #00e7ff;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  margin: 6px;
+}
+
+@media screen and (min-width: 576px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+
+.crypto-img {
+  width: 300px;
+}
+
+@media screen and (min-width: 576px) {
+  .crypto-img {
+    width: 800px;
+  }
+}
+
+.crypto-currency-container {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  border: 5px solid #00e7ff;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.crypto-header-details {
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 576px) {
+  .crypto-header-details {
+    padding: 14px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+.coin-type {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .coin-type {
+    font-size: 24px;
+  }
+}
+
+.value-details {
+  display: flex;
+  align-items: center;
+}
+
+.currency-value {
+  text-align: right;
+  margin-left: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  width: 50px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .currency-value {
+    margin-left: 48px;
+    width: 75px;
+    font-size: 24px;
+  }
+}
+
+.crypto-list {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+@media screen and (min-width: 576px) {
+  .crypto-list {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
